@@ -51,13 +51,15 @@ In `launche.json`:
 
 After in `singleRun: false` in `karma.conf.js` add:
 
-```json
+```js
+{
   customLaunchers:{
     ChromeDebug: {
       base: 'Chrome',
       flags: [ '--remote-debugging-port=9333' ]
     }
   }
+}
 ```
 ### For debug application
 
