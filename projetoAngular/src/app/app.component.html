@@ -1,20 +1,55 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
+  <div class="row">
+    <!-- item simples -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+        <fa name="star" animation="spin" class="star"></fa>
+        Melhores Amigos para troca
+        </div>
+        <ul class="list-group list-group-flush">
+          <my-friends class="list-group-item" name="João"></my-friends>
+          <my-friends class="list-group-item" name="Maria"></my-friends>
+          <my-friends class="list-group-item" name="Gabriel"></my-friends>
+          <my-friends class="list-group-item" name="Bebeto"></my-friends>
+        </ul>
+      </div>
+    </div>
 
+    <!-- item objects -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+        <fa name="money"></fa>
+        Possiveis produtos
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Distancia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr products *ngFor="let prod of products" [product]="prod"></tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+
+    <!-- item array -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+          <fa name="money"></fa>
+          Meus produtos
+        </div>
+        <div class="according">
+          <my-products [product]="chuteira"></my-products>
+          <my-products [product]="geladeira"></my-products>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
