@@ -1,1 +1,55 @@
-<my-products name="limao"></my-products>
+<div class="container">
+  <div class="row">
+    <!-- item simples -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+        <fa name="star" animation="spin" class="star"></fa>
+        Melhores Amigos para troca
+        </div>
+        <ul class="list-group list-group-flush">
+          <my-friends class="list-group-item" name="João"></my-friends>
+          <my-friends class="list-group-item" name="Maria"></my-friends>
+          <my-friends class="list-group-item" name="Gabriel"></my-friends>
+          <my-friends class="list-group-item" name="Bebeto"></my-friends>
+        </ul>
+      </div>
+    </div>
+
+    <!-- item objects -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+        <fa name="money"></fa>
+        Possiveis produtos
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Distancia</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr products *ngFor="let prod of products" [product]="prod"></tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+
+    <!-- item array -->
+    <div class="col-sm-4 col__center">
+      <div class="card">
+        <div class="card-header" style="text-align: center">
+          <fa name="money"></fa>
+          Meus produtos
+        </div>
+        <div class="according">
+          <my-products [product]="chuteira"></my-products>
+          <my-products [product]="geladeira"></my-products>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
