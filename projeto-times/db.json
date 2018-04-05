@@ -1,0 +1,418 @@
+{
+    "teams":[
+        {
+            "id":1,
+            "name":"Real Madrid",
+            "country":"Espanha",
+            "home":"Santiago Bernabéu",
+            "crowdExtimate":"",
+            "icon":"assets/images/real.png",
+            "about":""
+        },
+        {
+            "id":2,
+            "name":"Barcelona",
+            "country":"Espanha",
+            "home":"Camp Nou",
+            "crowdExtimate":"",
+            "icon":"assets/images/barcelona.png",
+            "about":""
+        },
+        {
+            "id":3,
+            "name":"Grêmio",
+            "country":"Brasil",
+            "home":"Arena do Grêmio",
+            "crowdExtimate":"",
+            "icon":"assets/images/gremio.png",
+            "about":""
+        },
+        {
+            "id":4,
+            "name":"Atlético de Madrid",
+            "country":"Espanha",
+            "home":"Vicente Calderón",
+            "crowdExtimate":"",
+            "icon":"assets/images/madrid.png",
+            "about":""
+        },
+        {
+            "id":5,
+            "name":"Independiente",
+            "country":"Argentina",
+            "home":"Libertadores de América",
+            "crowdExtimate":"",
+            "icon":"assets/images/Independiente.png",
+            "about":""
+        },
+        {
+            "id":6,
+            "name":"River Plate",
+            "country":"Argentina",
+            "home":"Monumental Antonio Vespucio Liberti",
+            "crowdExtimate":"",
+            "icon":"assets/images/river.png",
+            "about":""
+        },
+        {
+            "id":7,
+            "name":"Juventus",
+            "country":"Italia",
+            "home":"Juventus Stadium",
+            "crowdExtimate":"",
+            "icon":"assets/images/juventus.png",
+            "about":""
+        },
+        {
+            "id":8,
+            "name":"Bayer de Munchen",
+            "country":"Alemanha",
+            "home":"Alianz Arena",
+            "crowdExtimate":"",
+            "icon":"assets/images/bayer.png",
+            "about":""
+        },
+        {
+            "id":9,
+            "name":"Manchester United",
+            "country":"Ingraterra",
+            "home":"Old Trafford",
+            "crowdExtimate":"",
+            "icon":"assets/images/united.png",
+            "about":""
+        },
+        {
+            "id":10,
+            "name":"Sevilha",
+            "country":"Espanha",
+            "home":"Ramón Sánchez Pizjuán",
+            "crowdExtimate":"",
+            "icon":"assets/images/sevilha.png",
+            "about":""
+        }
+    ],
+    "trophies":[
+        {
+            "id":1,
+            "name":"Primeira Division (Espanha)"
+        },
+        {
+            "id":2,
+            "name":"Libertadores"
+        },
+        {
+            "id":3,
+            "name":"Copa Sudamericana"
+        },
+        {
+            "id":4,
+            "name":"Recopa Sudamericana"
+        },
+        {
+            "id":5,
+            "name":"Copa Argentina"
+        },
+        {
+            "id":6,
+            "name":"UEFA Champions League"
+        },
+        {
+            "id":7,
+            "name":"Série A (Italia)"
+        },
+        {
+            "id":8,
+            "name":"UEFA Europa League"
+        },
+        {
+            "id":9,
+            "name":"Coppa Italia"
+        },
+        {
+            "id":10,
+            "name":"UEFA Super Cup"
+        },
+        {
+            "id": 11,
+            "name": "Bundesliga"
+        },
+        {
+            "id": 12,
+            "name": "DFB Pokal"
+        },
+        {
+            "id": 13,
+            "name": "UEFA Club Word Cup"
+        },
+        {
+            "id": 14,
+            "name": "Premier League"
+        },
+        {
+            "id": 15,
+            "name": "FA Cup"
+        },
+        {
+            "id": 16,
+            "name": "Copa del Rey"
+        },
+        {
+            "id": 17,
+            "name": "Série A (Brasil)"
+        },
+        {
+            "id": 18,
+            "name": "Copa do Brasil"
+        },
+        {
+            "id": 19,
+            "name": "FIFA Club Word Cup"
+        },
+        {
+            "id": 20,
+            "name": "Primeira Division (Argentina)"
+        }
+    ],
+    "achievements":[
+        {
+            "trophieId":1,
+            "teamId":2,
+            "quantity":24
+        },
+        {
+            "trophieId":6,
+            "teamId":2,
+            "quantity":5
+        },
+        {
+            "trophieId":16,
+            "teamId":2,
+            "quantity":29
+        },
+        {
+            "trophieId":10,
+            "teamId":2,
+            "quantity":5
+        },
+        {
+            "trophieId":19,
+            "teamId":2,
+            "quantity":3
+        },
+        {
+            "trophieId":1,
+            "teamId":1,
+            "quantity":33
+        },
+        {
+            "trophieId":6,
+            "teamId":1,
+            "quantity":12
+        },
+        {
+            "trophieId":8,
+            "teamId":1,
+            "quantity":2
+        },
+        {
+            "trophieId":16,
+            "teamId":1,
+            "quantity":19
+        },
+        {
+            "trophieId":10,
+            "teamId":1,
+            "quantity":3
+        },
+        {
+            "trophieId":19,
+            "teamId":1,
+            "quantity":2
+        },
+        {
+            "trophieId":17,
+            "teamId":3,
+            "quantity":2
+        },
+        {
+            "trophieId":18,
+            "teamId":3,
+            "quantity":5
+        },
+        {
+            "trophieId":2,
+            "teamId":3,
+            "quantity":2
+        },
+        {
+            "trophieId":4,
+            "teamId":3,
+            "quantity":1
+        },
+        {
+            "trophieId":1,
+            "teamId":4,
+            "quantity":10
+        },
+        {
+            "trophieId":8,
+            "teamId":4,
+            "quantity":2
+        },
+        {
+            "trophieId": 16,
+            "teamId": 4,
+            "quantity": 10
+        },
+        {
+            "trophieId": 10,
+            "teamId": 4,
+            "quantity": 2
+        },
+        {
+            "trophieId": 20,
+            "teamId": 5,
+            "quantity": 15
+        },
+        {
+            "trophieId": 2,
+            "teamId": 5,
+            "quantity": 7
+        },
+        {
+            "trophieId": 4,
+            "teamId": 5,
+            "quantity": 1
+        },
+        {
+            "trophieId": 20,
+            "teamId": 6,
+            "quantity": 32
+        },
+        {
+            "trophieId": 2,
+            "teamId": 6,
+            "quantity": 3
+        },
+        {
+            "trophieId": 3,
+            "teamId": 6,
+            "quantity": 1
+        },
+        {
+            "trophieId": 2,
+            "teamId": 6,
+            "quantity": 2
+        },
+        {
+            "trophieId": 5,
+            "teamId": 6,
+            "quantity": 1
+        },
+        {
+            "trophieId": 6,
+            "teamId": 7,
+            "quantity": 2
+        },
+        {
+            "trophieId": 7,
+            "teamId": 7,
+            "quantity": 33
+        },
+        {
+            "trophieId": 6,
+            "teamId": 7,
+            "quantity": 3
+        },
+        {
+            "trophieId": 9,
+            "teamId": 7,
+            "quantity": 12
+        },
+        {
+            "trophieId": 10,
+            "teamId": 7,
+            "quantity": 2
+        },
+        {
+            "trophieId": 11,
+            "teamId": 8,
+            "quantity": 27
+        },
+        {
+            "trophieId": 6,
+            "teamId": 8,
+            "quantity": 5
+        },
+        {
+            "trophieId": 8,
+            "teamId": 8,
+            "quantity": 1
+        },
+        {
+            "trophieId": 12,
+            "teamId": 8,
+            "quantity": 18
+        },
+        {
+            "trophieId": 10,
+            "teamId": 8,
+            "quantity": 1
+        },
+        {
+            "trophieId": 19,
+            "teamId": 8,
+            "quantity": 1
+        },
+        {
+            "trophieId": 14,
+            "teamId": 9,
+            "quantity": 20
+        },
+        {
+            "trophieId": 6,
+            "teamId": 9,
+            "quantity": 3
+        },
+        {
+            "trophieId": 8,
+            "teamId": 9,
+            "quantity": 1
+        },
+        {
+            "trophieId": 15,
+            "teamId": 9,
+            "quantity": 12
+        },
+        {
+            "trophieId": 10,
+            "teamId": 9,
+            "quantity": 1
+        },
+        {
+            "trophieId": 19,
+            "teamId": 9,
+            "quantity": 1
+        },
+        {
+            "trophieId": 1,
+            "teamId": 10,
+            "quantity": 1
+        },
+        {
+            "trophieId": 8,
+            "teamId": 10,
+            "quantity": 5
+        },
+        {
+            "trophieId": 16,
+            "teamId": 10,
+            "quantity": 5
+        },
+        {
+            "trophieId": 10,
+            "teamId": 10,
+            "quantity": 1
+        }
+    ]
+}

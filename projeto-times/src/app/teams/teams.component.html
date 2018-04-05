@@ -1,0 +1,26 @@
+<section class="content-header">
+  <h5>
+    Os 10 Melhores
+  </h5>
+</section>
+
+<section class="content">
+  <div class="row">
+    <div *ngFor="let team of teams" class="col s12 m4">
+      <div class="card" [routerLink]="['team', team.id]">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s2">
+              <img [src]="team.icon" alt="" style="width: 45px">
+            </div>
+            <div class="col s10">
+              <p style="font-size:18px; font-weight: bold">{{ team.name }}</p>
+              <p>Pais: {{ team.country }}</p>
+              <p>Estádio: {{ team.home }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
