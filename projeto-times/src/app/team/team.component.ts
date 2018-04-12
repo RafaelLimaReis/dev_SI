@@ -13,7 +13,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class TeamComponent implements OnInit {
 
-  team: Team;
+  teamDetail: Team;
   trophies: Trophie[] = [];
 
   constructor(private apiService:ApiService, private route: ActivatedRoute) {}
@@ -24,8 +24,8 @@ export class TeamComponent implements OnInit {
     this.route.params.subscribe(params => _id = params['id']);
 
     this.apiService.team(_id).subscribe(teams => {
-      this.team = teams;
-      this.findTrophies(this.team.achievements);
+      this.teamDetail = teams;
+      this.findTrophies(this.teamDetail.achievements);
     });
   }
 
