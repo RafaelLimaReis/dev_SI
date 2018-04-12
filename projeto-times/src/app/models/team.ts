@@ -1,6 +1,6 @@
 import { Achievements } from './achievements';
 
-export class Team {
+export interface Team {
   id: number
   name: string
   country: string

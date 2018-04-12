@@ -1,4 +1,4 @@
-export class Trophie {
+export interface Trophie {
   id: number
   name: string
 }
