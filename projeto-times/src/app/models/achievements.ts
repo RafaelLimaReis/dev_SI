@@ -1,4 +1,4 @@
-export class Achievements {
+export interface Achievements {
   teamId: number
   trophieId : number
   quantity: number

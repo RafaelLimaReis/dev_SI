@@ -5,8 +5,8 @@
 </section>
 
 <section class="content">
-  <div class="row">
-    <div *ngFor="let team of teams" class="col s12 m4">
+  <div class="row container__flex">
+    <div *ngFor="let team of teams">
       <div class="card" [routerLink]="['team', team.id]">
         <div class="card-content">
           <div class="row">
