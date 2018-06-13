@@ -11,30 +11,23 @@
       <div class="card">
         <div class="card-content">
           <div class="row">
-            <div class="col s2">
+            <div class="col s2" *ngIf="teamDetail">
               <img [src]="teamDetail?.icon" alt="" style="width: 75px">
             </div>
             <div class="col s10">
               <p>Pais: {{ teamDetail?.country }}</p>
               <p>Estádio: {{ teamDetail?.home }}</p>
             </div>
-            <table class="striped centered">
-              <thead>
-                <tr>
-                  <th>Troféu</th>
-                  <th>Quantidade</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr *ngFor="let trophie of trophies">
-                  <td>{{trophie.name}}</td>
-                  <td>{{trophie.quantity}}</td>
-                </tr>
-              </tbody>
-            </table>
           </div>
+        </div>
+        <div class="card-action">
+          <a [routerLink]="['trophies']">Principais trofeus</a>
+          <a [routerLink]="['menu']">Produtos</a>
         </div>
       </div>
     </div>
+  </div>
+  <div class="row">
+    <router-outlet></router-outlet>
   </div>
 </section>

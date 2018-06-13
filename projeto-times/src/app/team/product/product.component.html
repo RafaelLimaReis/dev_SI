@@ -1,0 +1,12 @@
+
+<div class="row">
+  <div class="col s4">
+    <img [src]="itemShop.image" alt="" style="width:160px">
+  </div>
+  <div class="col s8">
+    <p>Descrição: {{itemShop.name}}</p>
+    <p>Valor: {{itemShop.value | currency: 'BRL': true}}</p>
+    <a (click)="sendEvent()" class=" waves-effect waves-light btn" style="margin-top:75px">
+      <i class="fa fa-plus-circle"></i> Adicionar</a>
+  </div>
+</div>

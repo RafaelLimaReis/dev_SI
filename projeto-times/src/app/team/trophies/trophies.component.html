@@ -1,0 +1,14 @@
+<table class="striped centered">
+  <thead>
+    <tr>
+      <th>Troféu</th>
+      <th>Quantidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trophie of trophies">
+      <td>{{trophie.name}}</td>
+      <td>{{trophie.quantity}}</td>
+    </tr>
+  </tbody>
+</table>

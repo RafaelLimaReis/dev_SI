@@ -6,7 +6,7 @@
             "country":"Espanha",
             "home":"Santiago Bernabéu",
             "crowdExtimate":"",
-            "icon":"assets/images/real.png",
+            "icon":"assets/images/logo/real.png",
             "about":""
         },
         {
@@ -15,7 +15,7 @@
             "country":"Espanha",
             "home":"Camp Nou",
             "crowdExtimate":"",
-            "icon":"assets/images/barcelona.png",
+            "icon":"assets/images/logo/barcelona.png",
             "about":""
         },
         {
@@ -24,7 +24,7 @@
             "country":"Brasil",
             "home":"Arena do Grêmio",
             "crowdExtimate":"",
-            "icon":"assets/images/gremio.png",
+            "icon":"assets/images/logo/gremio.png",
             "about":""
         },
         {
@@ -33,7 +33,7 @@
             "country":"Espanha",
             "home":"Vicente Calderón",
             "crowdExtimate":"",
-            "icon":"assets/images/madrid.png",
+            "icon":"assets/images/logo/madrid.png",
             "about":""
         },
         {
@@ -42,7 +42,7 @@
             "country":"Argentina",
             "home":"Libertadores de América",
             "crowdExtimate":"",
-            "icon":"assets/images/Independiente.png",
+            "icon":"assets/images/logo/Independiente.png",
             "about":""
         },
         {
@@ -51,7 +51,7 @@
             "country":"Argentina",
             "home":"Monumental Antonio Vespucio Liberti",
             "crowdExtimate":"",
-            "icon":"assets/images/river.png",
+            "icon":"assets/images/logo/river.png",
             "about":""
         },
         {
@@ -60,7 +60,7 @@
             "country":"Italia",
             "home":"Juventus Stadium",
             "crowdExtimate":"",
-            "icon":"assets/images/juventus.png",
+            "icon":"assets/images/logo/juventus.png",
             "about":""
         },
         {
@@ -69,7 +69,7 @@
             "country":"Alemanha",
             "home":"Alianz Arena",
             "crowdExtimate":"",
-            "icon":"assets/images/bayer.png",
+            "icon":"assets/images/logo/bayer.png",
             "about":""
         },
         {
@@ -78,7 +78,7 @@
             "country":"Ingraterra",
             "home":"Old Trafford",
             "crowdExtimate":"",
-            "icon":"assets/images/united.png",
+            "icon":"assets/images/logo/united.png",
             "about":""
         },
         {
@@ -87,7 +87,7 @@
             "country":"Espanha",
             "home":"Ramón Sánchez Pizjuán",
             "crowdExtimate":"",
-            "icon":"assets/images/sevilha.png",
+            "icon":"assets/images/logo/sevilha.png",
             "about":""
         }
     ],
@@ -414,5 +414,119 @@
             "teamId": 10,
             "quantity": 1
         }
+    ],
+    "items":[
+      {
+        "id":1,
+        "teamId":1,
+        "name":"Camisa Real Madrid",
+        "image":"assets/images/product/uniforme_real.jpg",
+        "value":100.00
+      },
+      {
+        "id": 2,
+        "teamId": 2,
+        "name": "Camisa Barcelona",
+        "image": "assets/images/product/uniforme_barcelona.jpg",
+        "value":100.00
+      },
+      {
+        "id": 3,
+        "teamId": 3,
+        "name": "Camisa Grêmio",
+        "image": "assets/images/product/uniforme_gremio.jpg",
+        "value":100.00
+      },
+      {
+        "id": 4,
+        "teamId": 4,
+        "name": "Camisa Atlético de Madrid",
+        "image": "assets/images/product/uniforme_atletico.jpg",
+        "value":100.00
+      },
+      {
+        "id": 5,
+        "teamId": 5,
+        "name": "Camisa Independiente",
+        "image": "assets/images/product/uniforme_independiente.jpg",
+        "value":100.00
+      },
+      {
+        "id": 6,
+        "teamId": 6,
+        "name": "Camisa River Plate",
+        "image": "assets/images/product/uniforme_river.jpg",
+        "value":100.00
+      },
+      {
+        "id": 7,
+        "teamId": 7,
+        "name": "Camisa Juventus",
+        "image": "assets/images/product/uniforme_juventus.jpg",
+        "value":100.00
+      },
+      {
+        "id": 8,
+        "teamId": 8,
+        "name": "Camisa Bayer de Munchen",
+        "image": "assets/images/product/uniforme_bayer.jpg",
+        "value":100.00
+      },
+      {
+        "id": 9,
+        "teamId": 9,
+        "name": "Camisa Manchester United",
+        "image": "assets/images/product/uniforme_manchester.jpg",
+        "value":100.00
+      },
+      {
+        "id": 10,
+        "teamId": 10,
+        "name": "Camisa Sevilha",
+        "image": "assets/images/product/uniforme_sevilha.jpg",
+        "value":100.00
+      },
+      {
+        "id": 11,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      },
+      {
+        "id": 12,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      },
+      {
+        "id": 13,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      },
+      {
+        "id": 14,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      },
+      {
+        "id": 15,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      },
+      {
+        "id": 16,
+        "teamId": "",
+        "name": "",
+        "image": "assets/images/product/",
+        "value":""
+      }
     ]
 }

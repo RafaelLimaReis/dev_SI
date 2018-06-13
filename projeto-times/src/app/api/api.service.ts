@@ -23,4 +23,8 @@ export class ApiService {
   trophie(id:number): Observable<Trophie> {
     return this.http.get(`${API}/trophies/${id}`).map(response => response.json());
   }
+
+  items(id:number): Observable<any> {
+    return this.http.get(`${API}/items?teamId=${id}`).map(response => response.json());
+  }
 }

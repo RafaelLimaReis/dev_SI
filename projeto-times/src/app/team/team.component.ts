@@ -14,7 +14,6 @@ import { ActivatedRoute } from '@angular/router';
 export class TeamComponent implements OnInit {
 
   teamDetail: Team;
-  trophies: Trophie[] = [];
 
   constructor(private apiService:ApiService, private route: ActivatedRoute) {}
 
@@ -25,17 +24,6 @@ export class TeamComponent implements OnInit {
 
     this.apiService.team(_id).subscribe(teams => {
       this.teamDetail = teams;
-      this.findTrophies(this.teamDetail.achievements);
-    });
-  }
-
-
-  private findTrophies(_array: any) {
-    _array.forEach(element => {
-      this.apiService.trophie(element.trophieId).subscribe(trophie => {
-        trophie['quantity'] = element.quantity;
-        this.trophies.push(trophie);
-      })
     });
   }
 }
