@@ -1,4 +1,4 @@
-import { ProductComponent } from './team/product/product.component';
+import { MenuComponent } from './team/menu/menu.component';
 import { AppComponent } from './app.component';
 import { TeamComponent } from './team/team.component';
 import { TeamsComponent } from './teams/teams.component';
@@ -11,7 +11,7 @@ export const ROUTES: Routes = [
   { path: 'team/:id', component: TeamComponent,
   children: [
     { path: '', redirectTo: 'trophies', pathMatch: 'full' },
-    { path: 'products', component: ProductComponent },
+    { path: 'menu', component: MenuComponent },
     { path: 'trophies', component: TrophiesComponent }
   ]},
 ]

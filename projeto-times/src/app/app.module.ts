@@ -1,3 +1,4 @@
+import { ShoppingCartService } from './team/shop-cart/shop.service';
 import { ApiService } from './api/api.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,8 @@ import { TeamComponent } from './team/team.component';
 import { RouterModule } from '@angular/router';
 import { ProductComponent } from './team/product/product.component';
 import { TrophiesComponent } from './team/trophies/trophies.component';
+import { ShopCartComponent } from './team/shop-cart/shop-cart.component';
+import { MenuComponent } from './team/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +21,16 @@ import { TrophiesComponent } from './team/trophies/trophies.component';
     TeamsComponent,
     TeamComponent,
     ProductComponent,
-    TrophiesComponent
+    TrophiesComponent,
+    ShopCartComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [ApiService],
+  providers: [ApiService, ShoppingCartService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

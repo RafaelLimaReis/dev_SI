@@ -421,70 +421,70 @@
         "teamId":1,
         "name":"Camisa Real Madrid",
         "image":"assets/images/product/uniforme_real.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 2,
         "teamId": 2,
         "name": "Camisa Barcelona",
         "image": "assets/images/product/uniforme_barcelona.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 3,
         "teamId": 3,
         "name": "Camisa Grêmio",
         "image": "assets/images/product/uniforme_gremio.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 4,
         "teamId": 4,
         "name": "Camisa Atlético de Madrid",
         "image": "assets/images/product/uniforme_atletico.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 5,
         "teamId": 5,
         "name": "Camisa Independiente",
         "image": "assets/images/product/uniforme_independiente.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 6,
         "teamId": 6,
         "name": "Camisa River Plate",
         "image": "assets/images/product/uniforme_river.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 7,
         "teamId": 7,
         "name": "Camisa Juventus",
         "image": "assets/images/product/uniforme_juventus.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 8,
         "teamId": 8,
         "name": "Camisa Bayer de Munchen",
         "image": "assets/images/product/uniforme_bayer.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 9,
         "teamId": 9,
         "name": "Camisa Manchester United",
         "image": "assets/images/product/uniforme_manchester.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 10,
         "teamId": 10,
         "name": "Camisa Sevilha",
         "image": "assets/images/product/uniforme_sevilha.jpg",
-        "value":""
+        "value":100.00
       },
       {
         "id": 11,
@@ -525,8 +525,8 @@
         "id": 16,
         "teamId": "",
         "name": "",
-        "image": "assets/images/product/,
-        "value":"""
+        "image": "assets/images/product/",
+        "value":""
       }
     ]
 }

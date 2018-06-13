@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 import { ApiService } from '../../api/api.service';
 import { ActivatedRoute } from '@angular/router';
 
@@ -9,18 +9,19 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProductComponent implements OnInit {
 
-  items:any;
 
-  constructor(private apiService: ApiService, private route: ActivatedRoute) {
-    let _id: number;
+  @Output() add = new EventEmitter();
+  @Input() itemShop;
 
-    this.route.parent.params.subscribe(params => _id = params['id']);
-
-    this.apiService.items(_id).subscribe(data => this.items = data);
+  constructor() {
+    console.log(this.itemShop)
   }
 
   ngOnInit() {
-    console.log(this.items)
+    console.log(this.itemShop);
   }
 
+  sendEvent(){
+    this.add.emit(this.itemShop);
+  }
 }
